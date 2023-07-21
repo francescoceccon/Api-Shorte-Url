@@ -104,3 +104,5 @@ C:\Users\franc\source\repos\Pessoal\Api-Shorter-Url\Mottu\obj\Debug\net6.0\Mottu
 C:\Users\franc\source\repos\Pessoal\Api-Shorter-Url\Mottu\obj\Debug\net6.0\ref\Mottu.dll
 C:\Users\franc\source\repos\Pessoal\Api-Shorter-Url\Mottu\obj\Debug\net6.0\Mottu.pdb
 C:\Users\franc\source\repos\Pessoal\Api-Shorter-Url\Mottu\obj\Debug\net6.0\Mottu.genruntimeconfig.cache
+C:\Users\franc\Source\Repos\Pessoal\Api-Shorter-Url\Mottu\bin\Debug\net6.0\Application.dll
+C:\Users\franc\Source\Repos\Pessoal\Api-Shorter-Url\Mottu\bin\Debug\net6.0\Application.pdb

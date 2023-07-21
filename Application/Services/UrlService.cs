@@ -1,36 +1,81 @@
 ﻿
+using Application.Services.Interfaces;
+using Domain;
+using Domain.DTO;
 using Infrastructure.Repositorys.Interfaces;
+using Infrastructure.Services.Interfaces;
+using System.Security.Cryptography;
+using System.Text;
+using System.Text.Json;
 
-namespace Application
+namespace Infrastructure.Services
 {
     public class URLService : IURLService
     {
-        private Queue<string> _QueueSimulator { get; set; } = new Queue<string>();
+        private Dictionary<string, string> _urlDictionary { get; set; }
         private readonly IUrlRepository _urlRepository;
-        public URLService(IUrlRepository urlRepository)
+        private readonly IUrlCryptography _urlCryptography;
+        public URLService(IUrlRepository urlRepository,IUrlCryptography urlCryptography)
         {
+            _urlDictionary = new Dictionary<string, string>();
             _urlRepository = urlRepository;
+            _urlCryptography = urlCryptography;
         }
 
-        public void PersistMottuJson()
+        public async Task ProcessMottuUrlsAsync(List<MottuUrl>? mottuUrls = null)
         {
-            //persistir o json
+            if (mottuUrls == null)
+            {
+                string jsonFilePath = $"{Path.GetDirectoryName(Directory.GetCurrentDirectory())}\\Infrastructure\\Json\\MottuInitJson.json";
+                string json;
+                using (StreamReader file = File.OpenText(jsonFilePath))
+                {
+                    json = file.ReadToEnd();
+                }
+                var jsonObject = JsonSerializer.Deserialize<List<MottuUrl>>(json); 
+                await _urlRepository.InsertAsync(jsonObject);
+                return;
+            }
+            await _urlRepository.InsertAsync(mottuUrls);
         }
 
-        public void ProcessShortUrl(string longUrl)
+        public async Task<MottuUrl> ProcessShortUrlAsync(string longUrl)
         {
-            var shortUrl = ProcessLongUrl(longUrl);
-            _QueueSimulator.Enqueue(shortUrl);
-            Thread.Sleep(10);
+            var shortUrl = await ProcessLongUrl(longUrl);
+            _urlDictionary.Add(longUrl,shortUrl);
+            Thread.Sleep(2000);
 
-            _urlRepository.InsertAsync(_QueueSimulator);
+            return await _urlRepository.InsertAsync(_urlDictionary,longUrl);
         }
 
-        private string ProcessLongUrl(string longUrl)
+        private async Task<string> ProcessLongUrl(string longUrl)
         {
-            //encurtar url
-            return "";
+            return await _urlCryptography.EncryptUrlAsync(longUrl);
+        }
 
+        public async Task<MottuUrl> ReadUrlAsync(string url)
+        {
+            return await _urlRepository.ReadAsync(url);
+        }
+
+        public async Task<MottuUrl> GetUrlAsync(string id)
+        {
+            return await _urlRepository.ReadByIdAsync(id);
+        }
+
+        public async Task DeleteUrlAsync(string id)
+        {
+            await _urlRepository.RemoveAsync(id);
+        }
+
+        public async Task UpdateAsync(MottuUrlDTO mottuUrl)
+        {
+            await _urlRepository.UpdateAsync(mottuUrl);
+        }
+
+        public async Task UpdateAsync(MottuUrl mottuUrl)
+        {
+            await _urlRepository.UpdateAsync(mottuUrl);
         }
     }
 }

@@ -1,11 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "DOIsbAtHKB6WJVggM4CgVGyH8HdcR/s4Hc0PP1xlOpWZco+C04InWP7bOiPTB9Zvt/tG+pewjNQ2+UoUE292yA==",
+  "dgSpecHash": "4QqqtewLORW4G3G9+DbdgMJV+GW7NBknDTY4CmClIDQx0WGF1nxmRPmz4X+pm6l/qz35hCxVu3T+qUQdE/ZXmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\franc\\source\\repos\\Pessoal\\Mottu\\Mottu\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\franc\\source\\repos\\Pessoal\\Api-Shorter-Url\\Application\\Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\franc\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
-    "C:\\Users\\franc\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\franc\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.8\\microsoft.entityframeworkcore.7.0.8.nupkg.sha512",
     "C:\\Users\\franc\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.8\\microsoft.entityframeworkcore.abstractions.7.0.8.nupkg.sha512",
     "C:\\Users\\franc\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.8\\microsoft.entityframeworkcore.analyzers.7.0.8.nupkg.sha512",
@@ -16,7 +14,7 @@
     "C:\\Users\\franc\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\franc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\franc\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
-    "C:\\Users\\franc\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\franc\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
     "C:\\Users\\franc\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\franc\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\franc\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
