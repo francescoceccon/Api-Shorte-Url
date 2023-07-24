@@ -1216,11 +1216,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\franc\\Source\\Repos\\Pessoal\\Api-Shorter-Url\\Mottu\\Mottu.csproj",
+      "projectUniqueName": "C:\\Users\\franc\\source\\repos\\Pessoal\\Api-Shorter-Url\\Mottu\\Mottu.csproj",
       "projectName": "Mottu",
-      "projectPath": "C:\\Users\\franc\\Source\\Repos\\Pessoal\\Api-Shorter-Url\\Mottu\\Mottu.csproj",
+      "projectPath": "C:\\Users\\franc\\source\\repos\\Pessoal\\Api-Shorter-Url\\Mottu\\Mottu.csproj",
       "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\franc\\Source\\Repos\\Pessoal\\Api-Shorter-Url\\Mottu\\obj\\",
+      "outputPath": "C:\\Users\\franc\\source\\repos\\Pessoal\\Api-Shorter-Url\\Mottu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1237,14 +1237,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\franc\\Source\\Repos\\Pessoal\\Api-Shorter-Url\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\franc\\Source\\Repos\\Pessoal\\Api-Shorter-Url\\Application\\Application.csproj"
+            "C:\\Users\\franc\\source\\repos\\Pessoal\\Api-Shorter-Url\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\franc\\source\\repos\\Pessoal\\Api-Shorter-Url\\Application\\Application.csproj"
             },
-            "C:\\Users\\franc\\Source\\Repos\\Pessoal\\Api-Shorter-Url\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\franc\\Source\\Repos\\Pessoal\\Api-Shorter-Url\\Domain\\Domain.csproj"
+            "C:\\Users\\franc\\source\\repos\\Pessoal\\Api-Shorter-Url\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\franc\\source\\repos\\Pessoal\\Api-Shorter-Url\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\franc\\Source\\Repos\\Pessoal\\Api-Shorter-Url\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\franc\\Source\\Repos\\Pessoal\\Api-Shorter-Url\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\franc\\source\\repos\\Pessoal\\Api-Shorter-Url\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\franc\\source\\repos\\Pessoal\\Api-Shorter-Url\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

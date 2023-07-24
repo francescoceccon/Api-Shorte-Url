@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7a860462-3c21-4345-942c-cb6725dc69d7": {
+      "ProjectGuid": "7a860462-3c21-4345-942c-cb6725dc69d7",
+      "DisplayName": "Infrastructure",
+      "ColorIndex": 0
+    },
+    "8d796f29-37c7-40bc-a996-c2f8eb0cb76b": {
+      "ProjectGuid": "8d796f29-37c7-40bc-a996-c2f8eb0cb76b",
+      "DisplayName": "Mottu",
+      "ColorIndex": 1
+    },
+    "c685cbde-413f-490a-a62c-76dd1cf9956e": {
+      "ProjectGuid": "c685cbde-413f-490a-a62c-76dd1cf9956e",
+      "DisplayName": "Domain",
+      "ColorIndex": 2
+    },
+    "baf5c828-3a3b-47a7-a703-fa1146a3f223": {
+      "ProjectGuid": "baf5c828-3a3b-47a7-a703-fa1146a3f223",
+      "DisplayName": "Application",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}
