@@ -7,11 +7,11 @@ namespace Application.Services.Cryptography
 {
     public class UrlCryptography : IUrlCryptography
     {
-        private Guid _randomic 
+        private long _randomic 
         { 
             get
             {
-                return Guid.NewGuid();
+                return new Random().NextInt64();
             }
         }
 
@@ -26,7 +26,7 @@ namespace Application.Services.Cryptography
         {
             StringBuilder shortUriModel = new StringBuilder("http://chr.dc/X");
             string hash;
-            byte[] randomBytes = BitConverter.GetBytes(_randomic.ToString()[1]);
+            byte[] randomBytes = BitConverter.GetBytes(_randomic);
 
             using (SHA256 sha256 = SHA256.Create())
             {
