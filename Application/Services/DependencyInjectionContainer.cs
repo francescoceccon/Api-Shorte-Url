@@ -2,12 +2,9 @@
 using Application.Services.Interfaces;
 using Infrastructure.Repositorys;
 using Infrastructure.Repositorys.Interfaces;
-using Infrastructure.Services;
-using Infrastructure.Services.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 
-namespace Infrastructure
+namespace Application.Services
 {
     public static class DependencyInjectionContainer
     {

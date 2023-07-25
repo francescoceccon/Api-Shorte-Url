@@ -10,3 +10,14 @@ C:\Users\franc\source\repos\Pessoal\Mottu\Mottu\Domain\obj\Debug\net6.0\Domain.c
 C:\Users\franc\source\repos\Pessoal\Mottu\Mottu\Domain\obj\Debug\net6.0\Domain.dll
 C:\Users\franc\source\repos\Pessoal\Mottu\Mottu\Domain\obj\Debug\net6.0\ref\Domain.dll
 C:\Users\franc\source\repos\Pessoal\Mottu\Mottu\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\franc\source\repos\Pessoal\Api-Shorter-Url\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\franc\source\repos\Pessoal\Api-Shorter-Url\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\franc\source\repos\Pessoal\Api-Shorter-Url\Domain\bin\Debug\net6.0\ref\Domain.dll
+C:\Users\franc\source\repos\Pessoal\Api-Shorter-Url\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\franc\source\repos\Pessoal\Api-Shorter-Url\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franc\source\repos\Pessoal\Api-Shorter-Url\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\franc\source\repos\Pessoal\Api-Shorter-Url\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\franc\source\repos\Pessoal\Api-Shorter-Url\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\franc\source\repos\Pessoal\Api-Shorter-Url\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\franc\source\repos\Pessoal\Api-Shorter-Url\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\franc\source\repos\Pessoal\Api-Shorter-Url\Domain\obj\Debug\net6.0\Domain.pdb

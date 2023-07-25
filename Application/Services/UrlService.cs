@@ -3,12 +3,9 @@ using Application.Services.Interfaces;
 using Domain;
 using Domain.DTO;
 using Infrastructure.Repositorys.Interfaces;
-using Infrastructure.Services.Interfaces;
-using System.Security.Cryptography;
-using System.Text;
 using System.Text.Json;
 
-namespace Infrastructure.Services
+namespace Application.Services
 {
     public class URLService : IURLService
     {

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Services.Interfaces
+namespace Application.Services.Interfaces
 {
     public interface IURLService
     {
