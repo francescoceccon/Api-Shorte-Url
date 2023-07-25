@@ -1,6 +1,5 @@
 ﻿using Domain;
 using Domain.DTO;
-using Infrastructure.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Mottu.Controllers
