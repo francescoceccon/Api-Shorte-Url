@@ -14,7 +14,7 @@ namespace Infrastructure.Repositorys
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string connectionString = "Server=postgres;Port=5432;Database=postgres;username=root;Password=root;";
+            string connectionString = "Host=172.17.0.2;Port=5432;Database=postgres;Username=root;Password=root;";
             optionsBuilder.UseNpgsql(connectionString);
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
