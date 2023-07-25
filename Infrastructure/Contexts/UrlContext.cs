@@ -12,11 +12,15 @@ namespace Infrastructure.Repositorys
     {
         public DbSet<MottuUrl> Url { get; set; }
 
+        public UrlContext(DbContextOptions dbContextOptions) : base(dbContextOptions)
+        {
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string connectionString = "Host=172.17.0.2;Port=5432;Database=postgres;Username=root;Password=root;";
-            optionsBuilder.UseNpgsql(connectionString);
+            optionsBuilder.UseNpgsql();
         }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder); 
